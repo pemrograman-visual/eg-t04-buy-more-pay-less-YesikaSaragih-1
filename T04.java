@@ -70,7 +70,7 @@ public class T04 {
             if (quantity0 <= 10) {
                 price[0] = price[0] - price[0] * 0.05;
             } else {
-                if (quantity <= 20) {
+                if (quantity0 <= 20) {
                     price[0] = price[0] - price[0] * 0.12;
                 }
             }
@@ -108,5 +108,3 @@ public class T04 {
         return String.format("%." + digits + "f", value);
     }
 }
-
-
